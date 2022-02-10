@@ -1,19 +1,21 @@
 *{
     margin: 0px;
     font-family: 'Oswald' , 'sans-serif';
-    color: white;
+    color: rgb(206, 197, 197);
 }
 
 body {
     width: 960px;
     margin: 0 auto;
-    background-color: #13243e;
+    background-color: rgb(122, 122, 148);
 }
 
 
 
 header {
+    margin-top: 1rem;
     text-align: center;
+    
 }
 
 header img {
@@ -52,7 +54,7 @@ section {
 }
 
 #choose-list {
-    background-color: #545353;
+    background-color: rgb(69, 69, 80);
     padding: 1rem 2rem;
     font-size: .85rem;
 }
@@ -76,17 +78,17 @@ figure {
 }
 
 figcaption {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(69, 69, 80, .5);
     position: relative;
     top: -1.5rem;
 }
 
 h2, h4 {
-    color: #C0F4FF;
+    color: white;
 }
 
 #interest div {
-    background-color: #545353;
+    background-color: rgb(69, 69, 80);
     padding: 1rem;
     margin-top: 1rem;
 }
@@ -96,7 +98,9 @@ h2, h4 {
 }
 
 #copyright {
-    background-color: tomato;
+    background-color: rgb(69, 69, 80);
+    display: flex;
+    justify-content: center;
 }
 
 #C0F4FF
